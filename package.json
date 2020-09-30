@@ -4,7 +4,7 @@
   "description": "A scaffolding that shows TypeScript working with Jest",
   "main": "index.ts",
   "scripts": {
-    "test": "jest --config ./scripts/jest.config.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/levent0z/jest-and-typescript/issues"
   },
-  "homepage": "https://github.com/levent0z/jest-and-typescript#readme"
+  "homepage": "https://github.com/levent0z/jest-and-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.3"
+  }
 }

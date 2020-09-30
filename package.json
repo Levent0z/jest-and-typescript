@@ -1,0 +1,24 @@
+{
+  "name": "jest-and-typescript",
+  "version": "1.0.0",
+  "description": "A scaffolding that shows TypeScript working with Jest",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest --config ./scripts/jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levent0z/jest-and-typescript.git"
+  },
+  "keywords": [
+    "Jest",
+    "TypeScript",
+    "ts-jest"
+  ],
+  "author": "Levent Oz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levent0z/jest-and-typescript/issues"
+  },
+  "homepage": "https://github.com/levent0z/jest-and-typescript#readme"
+}

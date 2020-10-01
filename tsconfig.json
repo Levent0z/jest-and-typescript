@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",                           /* Modified */
+    "module": "ES2020",                           /* Modified */
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,     /* Edited */
+    "moduleResolution": "node",                   /* Added */
+    "outDir": "dist",                             /* Added */
+  },                                              /* Added */
+  "exclude": [                                    /* Edited */
+    "node_modules",                               /* Added */
+    "**/__tests__"                                /* Added */
+  ]                                               /* Added */
+}

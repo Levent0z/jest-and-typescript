@@ -4,7 +4,7 @@
   "description": "A scaffolding that shows TypeScript working with Jest",
   "main": "index.ts",
   "scripts": {
-    "clean": "rimraf dist && jest --clearCache",
+    "clean": "rimraf dist coverage jest-report && jest --clearCache",
     "build": "tsc --build",
     "build:clean": "npm run clean && tsc --build",
     "test": "jest --config ./scripts/jest.config.js"

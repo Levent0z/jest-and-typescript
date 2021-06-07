@@ -12,7 +12,7 @@ module.exports = {
     coverageThreshold: {
         // https://jestjs.io/docs/en/configuration#coveragethreshold-object
         "global": {
-            "branches": 120,
+            "branches": 85,
             "functions": 85,
             "lines": 85,
             "statements": 85

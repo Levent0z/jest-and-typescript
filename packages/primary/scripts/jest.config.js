@@ -23,7 +23,7 @@ module.exports = {
     reporters: [
         "default",
         [
-            "./node_modules/jest-html-reporter",
+            "../../node_modules/jest-html-reporter",
             {
                 "pageTitle": "Jest Test report",
                 "outputPath": "./jest-report/index.html",

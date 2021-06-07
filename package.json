@@ -1,0 +1,13 @@
+{
+  "name": "jest-and-typescript-monorepo",
+  "private": "true",
+  "version": "1.0.0",
+  "repository": "git@github.com:Levent0z/jest-and-typescript.git",
+  "author": "Levent Oz <leventoz.dev@gmail.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

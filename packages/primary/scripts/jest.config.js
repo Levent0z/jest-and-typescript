@@ -4,6 +4,10 @@ module.exports = {
     transform: {
         '^.+\\.(t|j)s$': 'ts-jest'
     },
+    // Don't ignore transforming NPM package that is an ESM module
+    transformIgnorePatterns: [        
+        "/node_modules/(?!o11ySchema)"
+    ],
     globals: {
         'ts-jest': {
             tsConfig: '<rootDir>/tsconfig.test.json'
